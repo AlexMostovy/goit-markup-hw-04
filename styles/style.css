@@ -312,6 +312,43 @@ button {
   gap: 16px;
   margin-top: 8px;
 }
+.custom-logo {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.custom-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.custom-sec-list {
+  display: flex;
+  gap: 24px;
+}
+.custom-sec-item {
+  width: calc((100% - 150px) / 6);
+  height: 88px;
+}
+.custom-sec-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-sec-link:is(:hover, :focus) {
+  border-color: #404bbf;
+}
+.custom-sec-link:is(:hover, :focus) .custom-sec-icon {
+  fill: #404bbf;
+}
+.custom-sec-icon {
+  fill: #afb1b8;
+}
 .footer-item-icon {
   width: 40px;
   height: 40px;
